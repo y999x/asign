@@ -15,6 +15,7 @@
   "author": "catlair",
   "license": "MIT",
   "devDependencies": {
+    "@asign/typed": "workspace:^",
     "@asign/types": "workspace:^"
   }
 }
