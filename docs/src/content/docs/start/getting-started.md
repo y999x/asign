@@ -1,10 +1,13 @@
----
-title: 从这里开始
-description: 文档起始页面
-sidebar:
-  order: 0
----
+const { run } = require('@asunajs/caiyun');
+const { resolve } = require('path');
 
-姊妹项目 [BiliOutils](https://bo.js.cool/) - 一个 Bilibili 每日工具箱。
-
-star 了吗，评分了吗？没有？你还在等什么？
+(async () => {
+  await run(resolve(process.cwd(), './asign.json')); // 按需修改路径
+})();
+{
+  "caiyun": [
+    {
+      "auth": "Basic cGM6MTQ3ODg4ODgzMjA6UFp0YWV5eWJ8MXxSQ1N8MTcxNDAzNTQzNzU0OXxpTUNJT2JlRFpmdWdJMjRtRWFDZ0RHLkdRNVd3aXVTNFF3Qjl1MFdwZ09NenVtMWFnMDV0M1JzbG91YnpIWTRVX1FtcEl6cXk4YmE0WURVcEYzWnQ3eUN6OHpGSWZmVDZneW1leHBUWExORzZDYTRHSmJXbVNVMGNCNW5wRDJqdERfSVJPbkRHNnJFOXFYTTVWcUpkT0gxNVdvMU1IWEtJeXZJcVYzaW1rcWst"
+    }
+  ]
+}
